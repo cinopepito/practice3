@@ -2,7 +2,7 @@
 include('db.php');
 include('function.php');
 if(isset($_POST['submit'])){
-    updateTable();
+  
 }
 
 ?>
@@ -15,5 +15,5 @@ if(isset($_POST['submit'])){
        shoAlldata();
         ?>
     </select>
-    <input type="submit" name='submit' value='update'>
+    <input type="submit" name='submit' value='DELETE'>
 </form>
